@@ -36,16 +36,18 @@ img {
     border-radius: 15px;
 }
 
-.button a {
-    border:1px solid #ccc; 
-	background: orange; 
-	padding: 10px 10px; 
-    border-radius: 20px;
-    color: white;
-    font-weight: bold;
-  }
-
-  .button {
+.button {
     text-align: center;
-    margin: 20px;
-  }
+    background-color: orange;
+    height: 40px;
+    width: 200px;
+}
+
+.button a {
+    display: inline-block; /* Это добавлено для выравнивания кнопки */
+    line-height: 40px; /* Соответствует высоте кнопки */
+    text-align: center;
+    width: 100%; /* Заполняет всю доступную ширину родительского элемента */
+    text-decoration: none; /* Убирает подчеркивание ссылки */
+    color: white; /* Цвет текста */
+}
