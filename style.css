@@ -3,6 +3,17 @@ body{
     background-color: antiquewhite;
 }
 
+body.main {
+    background-image: url('images/background.jpg');
+    background-repeat: none;
+    background-size: cover;
+}
+
+ul.main-list {
+    list-style-type: none;
+    text-align: center;
+}
+
 h1 {
     text-align: center;
 }
@@ -30,9 +41,10 @@ li :hover {
 }
 
 img {
+    display: block;
+    margin: 0 auto;
     height: auto;
     width: 500px;
-    margin-left: 35%;
     border-radius: 15px;
 }
 
